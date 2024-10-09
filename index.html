@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex,nofollow">
+        <title>Mansory</title>
+        <link rel="icon" type="image/vnd.icon" href="contenu_general/mansory_favicon.ico">
+        <link href="style/css/bootstrap.css" rel="stylesheet">
+        <link href="style/css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300;400;500;700;900&family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <div class="divFixFooter">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="https://www.mansory.com/" target="_blank"><img src="contenu_general/mansory_logo_noir.png" width="220rem" height="auto"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav nav-fill">
+                            <a class="nav-link active" aria-current="page" href="">Accueil</a>
+                            <a class="nav-link" href="voitures.html">Voitures</a>
+                            <a class="nav-link" href="a_propos_de_nous.html">A propos de nous</a>
+                            <a class="nav-link" href="nous_contacter.html">Nous contacter</a>
+                            <a class="nav-link" href="nous_trouver.html">Nous trouver</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!--     HAUT DE PAGE     -->
+            <div class="imgAccueil">
+                <div class="imgModele">
+                    <!-- BALISE IMAGE VIDE CAR LE JAVASCRIPT S'OCCUPE DE LA REMPLIR AVEC UNE IMAGE CHOISIE AU HASARD -->
+                    <img id="changeimg" src="" width="100%" z-index="-5">
+                </div>
+                <div  class="logoModele">
+                    <div>
+                        <img src="contenu_general/mansory_logo_noir.png" alt="logo mansory" class="logoMansory">
+                    </div>
+                    <div class="btnAccueilPos">
+                        <div class="btnAccueil">
+                            <a id="changelien" href="" class="lienBtnAccueil"></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!--     LIGNE DE FLOTTAISON     -->
+
+            <!--     SECTION DECOUVERTE MANSORY     -->
+            <div class="row g-0 decouverte text-center">
+                <div class="offset-2 col-8 offset-lg-4 col-lg-4 textDecouverte align-self-center">
+                    <h1 class="titreDecouverte text-center">DECOUVREZ MANSORY</h1>
+                    <p id="paraDecouverte">Fondé en 1989 par l'iranien Kourosh Mansory,
+                    Mansory est un préparateur automobile allemand
+                    qui modifie des voitures haut de gamme et de luxe,
+                    aussi bien visuellement que dans leurs performances.</p>
+                    <a href="a_propos_de_nous.html" class="savoir"><p class="d-flex justify-content-center">En savoir plus</p></a>
+                </div>
+                <div class="col-12 fondCarbone">
+                    <img src="contenu_page_accueil/fond_carbone.png" width="100%">
+                </div>
+            </div>
+            
+
+            <!--     PRESENTATION DES 3 VOITURES     -->
+            <div class="row g-0">
+                <div class="col-12 col-lg-4 d-flex flex-column text-center">
+                    <!-- Première voiture -->
+                    <div>
+                        <a href="voitures/mercedes/amg_gt63_s_e_performance.html"><img src="contenu_page_accueil/amg_gt63_s_e_performance_avant.jpg" alt="mercedes amg gt63" class="imgAccHover p-5" loading="lazy"></a> 
+                    </div>
+                    <div class="btnModeleMarque d-flex justify-content-center align-self-center">
+                        <a href="voitures/mercedes/amg_gt63_s_e_performance.html" class="btnModele">AMG GT63 S E</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex flex-column text-center">
+                    <!-- Deuxième voiture -->
+                    <div>
+                        <a href="voitures/aston_martin/dbx.html"><img src="contenu_page_accueil/dbx_avant.jpg" alt="aston martin dbx" class="imgAccHover p-5" loading="lazy"></a>
+                    </div>
+                    <div class="btnModeleMarque d-flex justify-content-center align-self-center">
+                        <a href="voitures/aston_martin/dbx.html" class="btnModele">DBX</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex flex-column text-center">
+                    <!-- Troisième voiture -->
+                    <div>
+                        <a href="voitures/porsche/911_(992).html"><img src="contenu_page_accueil/p9lm_evo_900.jpg" alt="mansory p9lm_evo_900" class="imgAccHover p-5" loading="lazy"></a>
+                    </div>
+                    <div class="btnModeleMarque d-flex justify-content-center align-self-center">
+                        <a href="voitures/porsche/911_(992).html" class="btnModele">911 (992)</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="offset-lg-3 col-12 col-lg-6 d-flex flex-column text-center p-5">
+                    <!-- Bouton toute voiture -->
+                    <div class="btnModeleMarque d-flex justify-content-center align-self-center">
+                        <a href="voitures.html" class="btnModele">VOIR TOUTES LES VOITURES</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+            <footer>
+                <div>
+                    <div class="d-flex flex-raw justify-content-between">
+                        <p class=" ps-3 pt-3"><a href="https://www.facebook.com/mansory" target="blanket" class="lienFooter" id="lienFacebook">Facebook</a> | <a href="https://www.instagram.com/" target="blanket" class="lienFooter" id="lienInsta">Instagram</a> | <a href="https://www.youtube.com/mansory" target="blanket" class="lienFooter" id="lienYtb">Youtube</a> | <a href="https://www.mansory.com/" target="blanket" class="lienFooter lienReste pe-1">Site officiel</a></p>
+                        <p class="lienFooter pe-3 pt-3"><a href="/projet/mansory/nous_contacter.html" class="lienFooter lienReste">Contact</a> | <a href="/projet/mansory/mentions_legales.html" class="lienFooter lienReste">Mentions légales</a> | <a href="/projet/mansory/plan_du_site.html" class="lienFooter lienReste">Plan du site</a></p>
+                    </div>
+                    <a href="https://www.mansory.com/" target="blanket" class="d-flex justify-content-center"><img src="contenu_general/mansory_logo_blanc.png" alt="logo mansory"></a>
+                    <p class="d-flex justify-content-center pt-4">Ceci n'est qu'un site de présentation</p>
+                </div>
+            </footer>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="style/js/imgRandom.js"></script>
+    </body>
+</html>

@@ -1,0 +1,559 @@
+                                        /*          REGLES GENERALES          */
+body {
+    padding: 0px;
+    margin: 0px;
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+main {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 200px;
+}
+.divFixFooter {
+    position: relative;
+    min-height: 100%;
+}
+.divFixFooterVoitures {
+    min-height: 100%;
+}
+                                        /*          POLICE          */     
+@font-face {
+    font-family: "Liberation Serif";
+    src: url("https://www.samiachbani.fr/projet/mansoryfr/style/police/LiberationSerif-Regular.ttf");
+}
+.Liberation {
+    font-family: "Liberation Serif", serif;
+}
+
+                                        /*     ---     PAGE QUELCONQUE     ---     */
+
+                                        /*          HEADER          */
+header{
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+.nav-link {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+.navbar-nav {
+    margin-left: 3rem;
+}
+.nav-fill {
+    width: 100%;
+}
+                                        /*          BODY          */
+.breadcrumb {
+    padding: 20px;
+}
+                                        /*          FOOTER          */
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    color: white;
+    background-color: #2B2B2A;
+}
+.lienFooter {
+    text-decoration: none;
+    color: white;
+    transition: .3s ease-in-out;
+}
+#lienFacebook:hover {
+    color:  #3883fc;
+}
+#lienInsta:hover {
+    color: #c83ae8;
+}
+#lienYtb:hover {
+    color: #FF0000;
+}
+.lienReste:hover {
+    color:#D4B170;
+}
+                                        /*     ---     PAGE ACCUEIL     ---     */
+.imgAccueil {
+    position: relative;
+    padding-bottom: 48%;
+}
+.imgModele {
+    position: absolute;
+}
+.logoMansory {
+    width: 230px;
+}
+.logoModele {
+    position: absolute;
+    padding: 80px;
+}
+.lienBtnAccueil {
+    color: black;
+    text-decoration: none;
+}
+.btnAccueil {
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnAccueilPos {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.decouverte {
+    position: relative;
+    padding-bottom: 600px;
+}
+.fondCarbone {
+    position: absolute;
+    z-index: -50;
+    padding-top: 0px;
+    width: 100%;
+}
+.titreDecouverte {
+    padding-top: 80%;
+}
+.textDecouverte {
+    position: absolute;
+    padding-top: 10%;
+    color: white;
+}
+.savoir {
+    font-size: 20px;
+    color: white;
+}
+.imgAccHover {
+    transition: all 1s ease;
+}
+.imgAccHover:hover {
+    transform:scale(1.20);
+}
+                                        /*     ---     PAGE A PROPOS DE NOUS     ---     */
+.texteQui {
+    line-height: 30px;
+}
+.videoPropos {
+    text-align: center;
+    height: 600px;
+    margin-bottom: 500px;
+}
+                                        /*     ---     PAGE MARQUE     ---     */
+.logoMarques {
+    transition: all 1s ease;
+}
+.logoMarques:hover {
+    transform:scale(1.20);
+}
+.nomMarques {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+                                        /*     ---     PAGE MODELE DE MARQUE     ---     */
+.btnModele {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+}
+.btnModeleMarque {
+    border: 2px solid black;
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    z-index: 50;
+}
+.btnModeleMarque:hover {
+    background-color: #D4B170;
+}
+.imgModeleHover {
+    transition: all 1s ease;
+}
+.imgModeleHover:hover {
+    transform:scale(1.20);
+}
+                                        /*     ---     PAGE VOITURE     ---     */
+#modele {
+    text-align: center;
+}
+                                        /*          TEXTE PRESENTATION          */
+.titrePres {
+    font-weight: 700;
+}
+#textePres {
+    line-height: 25px;
+}
+                                        /*          CASES PERFORMANCES          */
+.obj {
+    height: 200px;
+    width: 400px;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.obj:hover {
+    background-color: #D4B170;
+}
+.new {
+    position: absolute;
+    opacity: 0;
+}
+.old, .new {
+    transition: opacity 0.5s linear;
+}
+.obj:hover .old {
+    opacity: 0;
+}
+.obj:hover .new {
+    opacity: 1;
+}
+.btnInfo {
+    height: 60px;
+    width: 230px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    transition: 0.5s ease-in-out;
+}
+.btnInfo:hover {
+    background-color: #D4B170;
+}
+.btnInfoTxt {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+}
+.objpdf {
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: #D4B170;
+}
+.objpdf:hover {
+    background-color: wheat;
+}
+                                        /*          CAROUSSEL-5-IMAGES           */
+img{max-width:100%}
+.target{display:none}
+.slider-css-target {
+    overflow-x: hidden;
+    max-width: 800px;
+    margin: auto;    
+}
+.slider-css-target ul {
+    margin: 1rem .5rem;
+    padding: 0;
+    list-style-type:none;
+    display:flex;
+    justify-content: space-between;
+    gap:.5rem;    
+} 
+.slider-css-target ul li a {
+    display:block;    
+    } 
+.slider-css-target ul li img {
+    display:block;
+    max-width:100%;
+    width:120px;
+    height:100%;
+    max-height:80px;
+    border:2px solid white;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.3);    
+}
+.slider-css-target-images { 
+    display: flex;
+    width: 500%;
+    will-change: transform;
+    transition: transform .4s ease-in-out;
+    position: relative;
+    z-index: -5;
+}
+.slider-css-target-images img { 
+    display:block;
+    width:100%;
+    height:auto;
+    /*aspect-ratio:3/2;
+    object-fit: cover;*/  
+}
+#photo2:target ~ .slider-css-target .slider-css-target-images {
+    transform:translate3d(-20%,0,0);
+}
+#photo3:target ~ .slider-css-target .slider-css-target-images {
+    transform:translate3d(-40%,0,0);
+}
+#photo4:target ~ .slider-css-target .slider-css-target-images {
+    transform:translate3d(-60%,0,0);
+}
+#photo5:target ~ .slider-css-target .slider-css-target-images {
+    transform:translate3d(-80%,0,0);
+}
+                                        /*          VIDEO          */
+.titreVideo {
+    text-align: center;
+    height: 600px;
+    margin-bottom: 200px;
+}
+.video {
+    width: 80%; 
+    height: 130%;
+}
+                                        /*     ---     PAGE LOCALISATION     ---     */
+.caseLoc{
+    height: 110px;
+    border: 2px solid black;
+    margin: 20px;
+    transition: 0.5s ease-in-out;
+}
+.caseLocLien {
+    color: black;
+    text-decoration: none;
+}
+.caseLoc:hover {
+    background-color: #D4B170;
+}
+                                        /*     ---     PAGE LOCALISATION SPECIFIQUE     ---     */
+.caseLocSpec {
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 50px;
+}
+                                        /*     ---     PAGE NOUS CONTACTER     ---     */
+.etoiles {
+    color: red;
+}
+                                        /*     ---     PAGE PLAN DE SITE     ---     */
+.plan {
+    line-height: 30px;
+}
+.plan a{
+    color: black;
+}
+.planVoitures {
+    text-indent: 60px;
+}
+.planModèle {
+    text-indent: 120px;
+}
+                                        /*          MIN-WIDTH 360 PX     ---     MAX-WIDTH 465 PX          */
+@media (min-width: 360px) and (max-width: 465px) {
+    .nav-link {
+        margin-left: 0rem;
+        text-align: start;
+    }
+    #drapeauPos {
+        margin-left: 0rem;
+    }
+    .imgAccueil {
+        position: relative;
+        padding-bottom: 50%;
+    }
+    .imgModele {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logoModele {
+        padding-left: 17%;
+    }
+    .divFixFooterVoitures {
+        min-height: 100%;
+    }
+    .video {
+        width: 80%; 
+        height: 50%;
+    }
+}
+                                        /*          MIN-WIDTH 466 PX     ---     MAX-WIDTH 576 PX          */
+@media (min-width: 466px) and (max-width: 576px){
+    .nav-link {
+        margin-left: 0rem;
+        text-align: start;
+    }
+    #drapeauPos {
+        margin-left: 0rem;
+    }
+    .imgAccueil {
+        position: relative;
+        padding-bottom: 50%;
+    }
+    .imgModele {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logoModele {
+        padding-left: 25%;
+    }
+    .video {
+        width: 80%; 
+        height: 80%;
+    }
+}
+                                        /*          MIN-WIDTH 360 PX     ---     MAX-WIDTH 576 PX          */
+@media (min-width: 360px) and (max-width: 576px){
+    .decouverte {
+        padding-bottom: 200px;
+    }
+    .titreDecouverte {
+        padding-top: 50%;
+        font-size: 12px;
+    }
+    #paraDecouverte {
+        font-size: 11px;
+    }
+    .savoir {
+        font-size: 9px;
+        color: black;
+    }
+}
+                                        /*          MIN-WIDTH 577 PX     ---     MAX-WIDTH 992 PX          */
+@media (min-width: 577px) and (max-width: 992px){
+                                            /*          HEADER          */
+    .navbar-brand {
+        width: 75%;
+        height: 50%;
+    }
+    .nav-link {
+        margin-left: 0rem;
+        text-align: start;
+    }
+    #drapeauPos {
+        margin-left: 0rem;
+    }
+                                            /*     ---     PAGE ACCUEIL     ---     */
+    .decouverte {
+        padding-bottom: 400px;
+    }
+    .titreDecouverte {
+        padding-top: 50%;
+        font-size: 20px;
+    }
+    #paraDecouverte {
+        font-size: 16px;
+    }
+                                            /*     ---     PAGE VOITURE     ---     */
+    .titreVideo {
+        height: 400px;
+        margin-bottom: 70px;
+    }
+    .video {
+        width: 80%; 
+        height: 100%;
+    }
+    
+    .logoModele {
+        padding: 5%;
+    }
+    .divFixFooterVoitures {
+        min-height: 100%;    
+    }
+}
+                                        /*          MIN-WIDTH 360 PX     ---     MAX-WIDTH 992 PX          */
+@media (min-width: 360px) and (max-width: 992px) {
+    .nomMarques{
+        font-size: 14px;
+    }
+    .navbar-nav{
+        margin-left: 0;
+    }
+}
+                                        /*          MIN-WIDTH 993 PX     ---     MAX-WIDTH 1200 PX          */
+@media (min-width: 993px) and (max-width: 1200px){
+    .nav-link {
+
+        margin-left:-1rem;
+        text-align: center;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    #drapeauPos {
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+}
+                                        /*          MIN-WIDTH 1200 PX     ---     MAX-WIDTH 1400 PX          */
+@media (min-width: 1200px) and (max-width: 1400px){
+    .nav-link {
+        margin-left:1.2rem;
+        text-align: center;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    #drapeauPos {
+        margin-left: 0;
+        margin-right: -1rem;
+    }
+}
+                                        /*          MIN-WIDTH 992 PX     ---     MAX-WIDTH 1400 PX          */
+@media (min-width: 992px) and (max-width: 1400px){
+    .decouverte {
+        padding-bottom: 500px;
+    }
+}
+                                        /*          MIN-WIDTH 1400 PX     ---     MAX-WIDTH 1600 PX          */
+@media (min-width: 1600px) and (max-width: 1800px){
+    .nav-link {
+        margin-left:5rem;
+        text-align: center;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    #drapeauPos {
+        margin-left: 2rem;
+        margin-right: -5rem;
+    }
+}
+                                        /*          MIN-WIDTH 1700 PX     ---     MAX-WIDTH 2000 PX          */
+@media (min-width: 1700px) and (max-width: 2000px){
+    .decouverte {
+        padding-bottom: 800px;
+    }
+}                                        
+                                        /*          MIN-WIDTH 1800 PX     ---     MAX-WIDTH 2000 PX          */
+@media (min-width: 1800px) and (max-width: 2000px){
+    .nav-link {
+        margin-left:7.5rem;
+        text-align: center;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    #drapeauPos {
+        margin-left: 5rem;
+        margin-right: -8rem;
+    }
+}

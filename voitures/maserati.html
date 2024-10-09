@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex,nofollow">
+        <title>Maserati - Mansory</title>
+        <link rel="icon" type="image/vnd.icon" href=/projet/mansory/contenu_general/mansory_favicon.ico">
+        <link href="/projet/mansory/style/css/bootstrap.css" rel="stylesheet">
+        <link href="/projet/mansory/style/css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300;400;500;700;900&family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Div qui permet de fixer le footer au bas de l'écran -->
+        <div class="divFixFooterVoitures">
+            <header>
+                <!-- Navbar bootstrap adaptée au mobile -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <!-- Logo mansory -->
+                        <a class="navbar-brand" href="https://www.mansory.com/" target="_blank"><img src="/projet/mansory/contenu_general/mansory_logo_noir.png" width="220rem" height="auto"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        <!-- Liste pages -->
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav nav-fill">
+                                <a class="nav-link" href="/projet/mansory/accueil.html">Accueil</a>
+                                <a class="nav-link active" aria-current="page" href="/projet/mansory/voitures.html">Voitures</a>
+                                <a class="nav-link" href="/projet/mansory/a_propos_de_nous.html">A propos de nous</a>
+                                <a class="nav-link" href="/projet/mansory/nous_contacter.html">Nous contacter</a>
+                                <a class="nav-link" href="/projet/mansory/nous_trouver.html">Nous trouver</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <!-- Fil d'ariane -->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/projet/mansory/accueil.html">Accueil</a></li>
+                        <li class="breadcrumb-item"><a href="/projet/mansory/voitures.html">Voitures</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Maserati</li>
+                    </ol>
+                </nav>
+                <div class="container">
+                    <div class="row">
+                        <!-- Première voiture -->
+                        <div class="col-12 offset-lg-4 col-lg-4 d-flex flex-column text-center">
+                            <div>
+                                <a href="maserati/mc20.html"><img src="maserati/contenu_page_maserati/mc20.png" alt="lamborghini urus" class="imgModeleHover"></a> 
+                            </div>
+                            <div class="btnModeleMarque d-flex justify-content-center align-self-center">
+                                <a href="maserati/mc20.html" class="btnModele">MC20</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div>
+                    <!-- Lien réseau sociaux + lien autres pages -->
+                    <div class="d-flex flex-raw justify-content-between">
+                        <p class=" ps-3 pt-3"><a href="https://www.facebook.com/mansory" target="blanket" class="lienFooter" id="lienFacebook">Facebook</a> | <a href="https://www.instagram.com/mansory/" target="blanket" class="lienFooter" id="lienInsta">Instagram</a> | <a href="https://www.youtube.com/mansory" target="blanket" class="lienFooter" id="lienYtb">Youtube</a> | <a href="https://www.mansory.com/" target="blanket" class="lienFooter lienReste pe-1">Site officiel</a></p>
+                        <p class="lienFooter pe-3 pt-3"><a href="/projet/mansory/nous_contacter.html" class="lienFooter lienReste">Contact</a> | <a href="/projet/mansory/mentions_legales.html" class="lienFooter lienReste">Mentions légales</a> | <a href="/projet/mansory/plan_du_site.html" class="lienFooter lienReste">Plan du site</a></p>
+                    </div>
+                    <!-- Logo mansory + phrase indiquant l'intention du site -->
+                    <a href="https://www.mansory.com/" target="blanket" class="d-flex justify-content-center"><img src="/projet/mansory/contenu_general/mansory_logo_blanc.png" alt="logo mansory"></a>
+                    <p class="d-flex justify-content-center pt-4">Ceci n'est qu'un site de présentation</p>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+</html>
